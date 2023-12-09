@@ -15,7 +15,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star icon" className="w-4 h-4" />
     </div>
     <div className="w-auto">
-      <h3>{title}</h3>
+      <h3 className="text-lg font-semibold">{title}</h3>
       <p className="text-body">{content}</p>
     </div>
   </div>
@@ -29,7 +29,7 @@ function Business() {
     >
       <div className="container flex flex-col md:flex-row gap-10 md:gap-[4.875rem]">
         <div className="business-content md:w-[50%]">
-          <h2 className="fs-800 sm:max-w-[622px]">
+          <h2 className="sm:max-w-[622px]">
             You do the business we'll handle the money.
           </h2>
           <p className="text-body mt-6 mb-12 leading-[1.7] sm:max-w-[430px]">

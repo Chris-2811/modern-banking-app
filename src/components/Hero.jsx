@@ -18,7 +18,7 @@ function Hero() {
           </div>
 
           <div className="header flex items-center justify-between md:mt-5 ">
-            <h1 className="relative fs-900">
+            <h1 className="relative">
               The Next <br />
               <span className="gradient-text">Generation</span>
             </h1>

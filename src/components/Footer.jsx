@@ -24,7 +24,7 @@ function Footer() {
                   aria-label="Secondary-navigation"
                   className="flex flex-col gap-3 "
                 >
-                  <h3>{link.title}</h3>
+                  <h3 className="font-semibold text-lg">{link.title}</h3>
                   {link.links.map((item) => (
                     <li className="text-body">
                       <a className="hover:text-secondary" href={item.link}>

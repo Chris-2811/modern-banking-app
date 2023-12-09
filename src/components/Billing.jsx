@@ -14,7 +14,7 @@ function Billing() {
           <div className=" absolute bottom-0 z-[0] -left-1/2  pink-gradient border-radius-[471px] w-[50%] h-[50%] "></div>
         </div>
         <div className="testimonial-content md:w-[50%] md:self-center">
-          <h2 className="fs-800 sm:max-w-[470px]">
+          <h2 className=" sm:max-w-[470px]">
             Easily control your billing & invoicing.
           </h2>
           <p className="text-body mt-6 mb-12 sm:max-w-[430px]">

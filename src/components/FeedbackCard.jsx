@@ -30,7 +30,7 @@ function FeedbackCard({ title, name, img, content, index, id }) {
       <div className="flex items-center gap-4">
         <img src={img} alt="avatar" className="w-12" />
         <div>
-          <h3>{name}</h3>
+          <h3 className="text-xl font-normal">{name}</h3>
           <small className="text-body">{title}</small>
         </div>
       </div>
